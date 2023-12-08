@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="container">
+        <div id="streamControl">
+            <video src="" id="stream" playsinline autoplay hidden></video>
+        </div>
+        <div id="controls">
+            <div class="select"><select id="videoSource" hidden></select></div>
+            <button id="opencam">Open Camera</button>
+            <button id="capture">Capture Image</button>
+            <button id="record">Record Video</button>
+            <button id="serverfile">Open Files on Server</button>
+        </div>
+        <canvas id="image" hidden></canvas>
+        <div id="captureImage"></div>
+    </div>
+    <script src="script.js" async></script>
+</body>
+</html>
